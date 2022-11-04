@@ -1,0 +1,6 @@
+{
+  "watch": ["src"],
+  "ext": ".ts,.js",
+  "ignore": [],
+  "exec": "rimraf ./build && tsc && node -r dotenv/config ./build/main.js"
+}
